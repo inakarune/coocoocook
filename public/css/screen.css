@@ -1,0 +1,91 @@
+.bg {
+	background-color: gold;
+	padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(255,255,255,1), rgba(255,255,255,1) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(255,255,255,1), rgba(255,255,255,1) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(255,255,255,1), rgba(255,255,255,1) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(255,255,255,1), rgba(255,255,255,1) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+}
+
+input {
+	outline: none;
+}
+
+input[type="text"] {
+	font-size: 24px;
+}
+
+img {
+	width: 70%;
+	margin-top : 20px;
+	align-self: left;
+}
+
+ul {
+	list-style: none;
+	padding: 40px;
+}
+
+.card {
+	margin : auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#counter {
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+.point {
+	background: orange;
+	border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin-right: 5px;
+	text-align: center;
+	width: 1.6em; 
+}
+
+h4 {
+	margin-left: 20px;
+}
+
+.scroll {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	height: 80px;
+	background-color: orange;
+	margin: 20px;
+	z-index: 1;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+	line-height: 70px;
+	font-size: 30px;
+
+}
+
+.buttonbox {
+	width:100%;
+  display:inline;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.size {
+	width: 30%;
+}
