@@ -1,9 +1,10 @@
 # coocoocook
-`
+
+<pre><code>
 git clone https://github.com/inakarune/coocoocook.git
-  cd coocoocook
-    npm install
-`
+cd coocoocook
+npm install
+</code></pre>
 
 * 레시피 추가
 * 레시피 삭제
