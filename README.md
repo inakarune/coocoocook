@@ -1,7 +1,11 @@
 # coocoocook
 `
-git clone 
+git clone https://github.com/inakarune/coocoocook.git
+`
+`
 cd coocoocook
+`
+`
 npm install
 `
 
