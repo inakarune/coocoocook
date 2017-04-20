@@ -1,5 +1,6 @@
 # coocoocook
 
+### 기능
 <pre><code>
 git clone https://github.com/inakarune/coocoocook.git
 cd coocoocook
@@ -13,5 +14,5 @@ npm install
 * 태그 별 레시피 분류
 * 이미지 파일전송
 
-미개발 기능
+### 미개발 기능
 * 레시피 편집
