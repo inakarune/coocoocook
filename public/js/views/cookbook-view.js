@@ -21,7 +21,7 @@ app.CookbookView = Backbone.View.extend({
 		this.listenTo(this.collection, 'destroy', this.renderCount);
 	},
 
-	addRecipe : function(e){
+	addRecipe : function (e) {
 		e.preventDefault();
 		let formdata = {};
 		let fff = $('#file').prop('files')[0];
@@ -32,7 +32,6 @@ app.CookbookView = Backbone.View.extend({
 			storageRef.child(`/images/${fff.name}`)
 				.getDownloadURL()
 				.then(function (url) {
-					console.log(url)
 					$('.recipeData div').children('input').each(function (i, el) {
 						if ($(el).val() != '') {
 							if (el.id === 'file') {
@@ -60,9 +59,9 @@ app.CookbookView = Backbone.View.extend({
 			alert('레시피가 추가되었습니다.');
 		}
 		
-		function writeUserData(file, title, food, bookmark, tag) {
+		function writeUserData (file, title, food, bookmark, tag) {
 		  firebase.database().ref('recipes/' + tag).push({
-		  	image: file,
+		    image: file,
 		    title: title,
 		    food: food,
 		    bookmark: bookmark,
@@ -71,7 +70,7 @@ app.CookbookView = Backbone.View.extend({
 		}
 	},
 
-	searchRecipe : function(e){
+	searchRecipe : function (e) {
 		e.preventDefault();
 		let keyword = $('#searchKeyword').val();
 		let found = this.collection.search(keyword, ['title', 'food']);
