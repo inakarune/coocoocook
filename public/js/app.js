@@ -1,12 +1,12 @@
 var app = app || {};
 var ENTER_KEY = 13;
 
-$(function(){
+$(function () {
 	
 	var recipesRef = firebase.database().ref('recipes/');
 	recipesRef.on('value', function (data) {
 		setTimeout(move, 500);
-		function move(){
+		function move (){
 			var firebaseData = [];
 
 			for(let key in data.val().매일반찬){
